@@ -55,3 +55,22 @@ Applied 10% discount for late deliveries
 Summarized discounts by Customer
 Filtered unpaid invoices
 Key Learning: Conditional logic with .apply() and datetime handling
+
+📊 Day 5: Visualizing Shipping Delays, Discounts, and Invoices
+This notebook demonstrates how visualizations can turn ERP-style data into actionable insights. Using the merged Orders + Invoices dataset (merged_df), I explore fulfillment performance, customer impact, and financial health through three key charts:
+
+🔹 Shipping Delay Distribution
+Histogram showing how quickly orders are shipped
+Late shipments flagged at >2 days (adjustable threshold)
+Highlights fulfillment bottlenecks
+
+🔹 Discounts by Customer
+Bar chart of total discounts applied due to late shipments
+Reveals which customers were most impacted
+Validates business logic for conditional discounts
+
+🔹 Paid vs Unpaid Invoices
+Pie chart showing proportion of paid vs unpaid invoices
+Snapshot of financial health and outstanding liabilities
+
+Each chart is followed by a Markdown explanation to guide the reader through the logic and insights. This milestone sets the stage for predictive analysis in future steps (e.g., forecasting late shipments or payment delays).
